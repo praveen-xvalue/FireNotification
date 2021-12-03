@@ -1,0 +1,11 @@
+framework module FireNotification {
+  umbrella header "FireNotification.h"
+
+  export *
+  module * { export * }
+}
+
+module FireNotification.Swift {
+    header "FireNotification-Swift.h"
+    requires objc
+}
